@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int n;
+	printf("\nenetr the number");
+	scanf("%d",&n);
+	if(n%4==0)
+	{
+		printf("%d is leapyear",n);
+	}
+	else
+	{
+		printf("%d is notleapyear",n);
+	}
+	return 0;
+}
