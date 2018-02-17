@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(void)
+{
+	int rem,cube,original,n;
+	scanf("%d",&n);
+	original=n;
+	while(n!=0)
+	{
+		rem=n%10;
+		cube=cube+rem*rem*rem;
+		n=n/10;
+	}
+	if(original==cube)
+	{
+		printf("%d is armstrong",cube);
+	}
+	else
+	{
+		printf("%d is not armstrong",cube);
+	}
+return 0;
+}
